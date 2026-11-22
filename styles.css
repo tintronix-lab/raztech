@@ -1169,8 +1169,14 @@ img {
 
 /* ---------- Contact and footer ---------- */
 
+.contact__layout {
+  display: grid;
+  gap: 2rem 4rem;
+  align-items: start;
+}
+
 .contact h2 {
-  max-width: 24ch;
+  max-width: 20ch;
   font-size: clamp(1.9rem, 4vw, 3rem);
   font-weight: 850;
   line-height: 1;
@@ -1181,6 +1187,92 @@ img {
   max-width: 40rem;
   margin-top: 1.1rem;
   font-size: 0.98rem;
+  color: var(--muted);
+}
+
+.contact__intro .text-link {
+  color: var(--ink);
+}
+
+@media (min-width: 60rem) {
+  .contact__layout {
+    grid-template-columns: minmax(0, 5fr) minmax(0, 6fr);
+  }
+}
+
+/* The contact form: plain fields, native validation, no script */
+.form {
+  display: grid;
+  gap: 1rem;
+}
+
+.form__pair {
+  display: grid;
+  gap: 1rem;
+}
+
+@media (min-width: 36rem) {
+  .form__pair {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+.field {
+  display: grid;
+  gap: 0.35rem;
+}
+
+.field label {
+  font-size: 0.98rem;
+  font-weight: 700;
+}
+
+.field__optional {
+  font-weight: 500;
+  color: var(--muted);
+}
+
+.field input,
+.field textarea {
+  width: 100%;
+  padding: 0.65rem 0.8rem;
+  border: 2px solid var(--muted);
+  border-radius: 0.6rem;
+  background: var(--surface);
+  color: var(--ink);
+  font: inherit;
+}
+
+.field textarea {
+  min-height: 8rem;
+  resize: vertical;
+}
+
+.field input:focus-visible,
+.field textarea:focus-visible {
+  border-color: var(--city);
+  outline-offset: 1px;
+}
+
+/* A field only automated senders fill in */
+.form__trap {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+}
+
+.form .button {
+  justify-self: start;
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.form__privacy {
+  max-width: 34rem;
+  font-size: 0.92rem;
   color: var(--muted);
 }
 

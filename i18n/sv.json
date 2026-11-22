@@ -165,5 +165,13 @@
   "Analytics and AI": "Analys och AI",
   "Anomaly detection, predictive maintenance and energy optimization, with the reasoning shown to the operator.": "Avvikelsedetektering, prediktivt underhåll och energioptimering, där operatören får se resonemanget bakom.",
   "Security and compliance": "Säkerhet och regelefterlevnad",
-  "Secure by design, with GDPR, the EU Cyber Resilience Act, NIS2 and the Radio Equipment Directive in view from the first sketch.": "Inbyggd säkerhet, med GDPR, EU:s cyberresiliensförordning, NIS2 och radioutrustningsdirektivet i sikte från första skissen."
+  "Secure by design, with GDPR, the EU Cyber Resilience Act, NIS2 and the Radio Equipment Directive in view from the first sketch.": "Inbyggd säkerhet, med GDPR, EU:s cyberresiliensförordning, NIS2 och radioutrustningsdirektivet i sikte från första skissen.",
+  "Prefer your own mail app?": "Skriver du hellre från din egen mejlapp?",
+  "Your name": "Ditt namn",
+  "Email": "E-post",
+  "Company": "Företag",
+  "(optional)": "(valfritt)",
+  "What are you trying to do?": "Vad vill du åstadkomma?",
+  "Send message": "Skicka meddelande",
+  "Your message is delivered to our inbox by Web3Forms, a form service. We use what you send only to reply to you.": "Ditt meddelande levereras till vår inkorg av formulärtjänsten Web3Forms. Vi använder det du skickar enbart för att svara dig."
 }

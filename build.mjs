@@ -70,6 +70,9 @@ const LANGUAGES = {
       ['<meta property="og:locale:alternate" content="sv_SE">', '<meta property="og:locale:alternate" content="en_US">'],
       [`content="${SITE}assets/share.png"`, `content="${SITE}assets/share-sv.png"`],
       ['?subject=Project%20inquiry', '?subject=Projektf%C3%B6rfr%C3%A5gan'],
+      // The contact form: its own thank-you page, and a subject line that says which page it came from.
+      [`name="redirect" value="${SITE}thanks/"`, `name="redirect" value="${SITE}sv/thanks/"`],
+      ['value="New message from the RazTech website"', 'value="New message from the RazTech website (Swedish page)"'],
       // 360Maps has its Swedish site at the root and its English one under en/.
       ['href="https://tintronix-lab.github.io/360Maps/en/"', 'href="https://tintronix-lab.github.io/360Maps/"'],
     ],

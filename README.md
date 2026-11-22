@@ -32,13 +32,13 @@ The website has the details.
 
 ## Contact
 
-Have a city, a building or a service that should work better? Write to <raztechsupport@icloud.com>, in Swedish or English.
+Have a city, a building or a service that should work better? Use the contact form on the website, or write to <raztechsupport@icloud.com>, in Swedish or English.
 
 For help with one of our apps, see the support page on that product's website.
 
 ## About this repository
 
-The site is plain HTML and CSS in English and Swedish. It uses no cookies, no trackers and no JavaScript, and loads nothing from third parties.
+The site is plain HTML and CSS in English and Swedish. It uses no cookies, no trackers and no JavaScript, and loads nothing from third parties. Messages sent through the contact form are delivered to our inbox by Web3Forms.
 
 Found a mistake on the site? Tell us at the address above.
 
