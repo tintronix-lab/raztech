@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="robots" content="noindex">
+  <title>Share image template</title>
+  <link rel="stylesheet" href="../styles.css">
+  <style>
+    /* Template for assets/share.png (1200 x 630) and assets/apple-touch-icon.png (180 x 180).
+       It reuses the site's tokens and copies the map out of index.html, so the images
+       can never drift from the page. Rendered by tools/share-image.mjs. */
+    body { position: relative; width: 1200px; height: 630px; overflow: hidden; }
+    .card-text { position: absolute; left: 72px; top: 40px; }
+    .card-name { display: flex; align-items: center; gap: 14px; font-size: 30px; font-weight: 800; }
+    .card-logo { display: block; width: auto; height: 104px; margin-left: -27px; mix-blend-mode: multiply; }
+    .card-text h1 { max-width: 20ch; margin-top: 14px; font-size: 64px; font-weight: 850; line-height: 1; letter-spacing: -0.03em; }
+    .card-map { position: absolute; left: 72px; right: 72px; bottom: 28px; }
+    .card-map .map { margin: 0; }
+    .card-map .line { animation: none; stroke-dashoffset: 0; }
+    .card-map .stations, .card-map .map__names { opacity: 1; animation: none; }
+    #icon { position: absolute; left: 1300px; top: 0; }
+    #icon-small { position: absolute; left: 1300px; top: 200px; }
+  </style>
+</head>
+<body>
+  <div class="card-text">
+    <div class="card-name">
+      <img class="card-logo" src="../assets/logo.png" alt="">
+    </div>
+    <h1 id="headline"></h1>
+  </div>
+  <div class="card-map"><figure class="map" id="map"></figure></div>
+  <img id="icon" src="../assets/icon.svg" alt="" width="180" height="180">
+  <img id="icon-small" src="../assets/icon.svg" alt="" width="32" height="32">
+  <script>
+    (async () => {
+      const language = new URLSearchParams(location.search).get("lang");
+      const html = await (await fetch(language ? `../${language}/index.html` : "../index.html")).text();
+      const page = new DOMParser().parseFromString(html, "text/html");
+      const map = page.querySelector(".map__wide");
+      map.setAttribute("viewBox", "0 20 1200 380");
+      document.getElementById("map").append(document.importNode(map, true));
+      document.getElementById("headline").textContent = page.querySelector("h1").textContent;
+      await document.fonts.ready;
+      document.body.dataset.ready = "true";
+    })();
+  </script>
+</body>
+</html>

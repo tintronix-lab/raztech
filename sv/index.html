@@ -1,0 +1,574 @@
+<!doctype html>
+<html lang="sv">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>RazTech Innovations AB | Innovating tomorrow, today</title>
+  <meta name="description" content="RazTech Innovations AB är en svensk IoT-produktstudio och konsultfirma som arbetar med företag i hela Europa. Vi bygger uppkopplade produkter och appar, och hjälper industri, städer och fastighetsägare att göra sensorer, realtidsdata och AI till tjänster som människor litar på.">
+  <link rel="canonical" href="https://raztech.duckdns.org/sv/">
+  <link rel="alternate" hreflang="en" href="https://raztech.duckdns.org/">
+  <link rel="alternate" hreflang="sv" href="https://raztech.duckdns.org/sv/">
+  <link rel="alternate" hreflang="x-default" href="https://raztech.duckdns.org/">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#f2f5f7" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0b1824" media="(prefers-color-scheme: dark)">
+
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="sv_SE">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta property="og:site_name" content="RazTech Innovations AB">
+  <meta property="og:title" content="RazTech Innovations AB | Innovating tomorrow, today">
+  <meta property="og:description" content="Lugn teknik för städer, hem, omsorg och lek. En svensk IoT-produktstudio och konsultfirma som arbetar i hela Europa. Åtta produkter på fyra linjer, och konsulting inom IoT, industriell IoT, smarta städer och AI.">
+  <meta property="og:url" content="https://raztech.duckdns.org/sv/">
+  <meta property="og:image" content="https://raztech.duckdns.org/assets/share-sv.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="../assets/icon-32.png" sizes="32x32" type="image/png">
+  <link rel="icon" href="../assets/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="../assets/apple-touch-icon.png">
+  <link rel="preload" href="../assets/fonts/overpass-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="../styles.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "RazTech Innovations AB",
+    "url": "https://raztech.duckdns.org/",
+    "logo": "https://raztech.duckdns.org/assets/logo.png",
+    "email": "raztechsupport@icloud.com",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "SE"
+    },
+    "slogan": "Innovating tomorrow, today",
+    "areaServed": "Europe",
+    "knowsAbout": [
+      "Internet of Things",
+      "Industrial IoT",
+      "Edge computing",
+      "Predictive maintenance",
+      "Digital twins",
+      "MQTT",
+      "OPC UA",
+      "LoRaWAN",
+      "Smart cities",
+      "Smart buildings",
+      "Connected home",
+      "Thread",
+      "Matter"
+    ],
+    "description": "Svensk IoT-produktstudio och konsultfirma för industri, smarta städer, uppkopplade hem, omsorg och lek."
+  }
+  </script>
+</head>
+<body>
+  <a class="skip" href="#main">Hoppa till innehållet</a>
+
+  <!-- Flags for the language menu, drawn once and reused. -->
+  <svg class="sprite" aria-hidden="true" focusable="false">
+    <symbol id="flag-en" viewBox="0 0 60 30" preserveAspectRatio="xMidYMid slice">
+      <clipPath id="flag-en-quarters"><path d="M30 15h30v15zv15H0zH0V0zV0h30z"/></clipPath>
+      <path fill="#012169" d="M0 0h60v30H0z"/>
+      <path stroke="#fff" stroke-width="6" d="m0 0 60 30m0-30L0 30"/>
+      <path stroke="#c8102e" stroke-width="4" clip-path="url(#flag-en-quarters)" d="m0 0 60 30m0-30L0 30"/>
+      <path stroke="#fff" stroke-width="10" d="M30 0v30M0 15h60"/>
+      <path stroke="#c8102e" stroke-width="6" d="M30 0v30M0 15h60"/>
+    </symbol>
+    <symbol id="flag-sv" viewBox="0 0 16 10" preserveAspectRatio="xMidYMid slice">
+      <path fill="#006aa7" d="M0 0h16v10H0z"/>
+      <path fill="#fecc02" d="M5 0h2v10H5zM0 4h16v2H0z"/>
+    </symbol>
+  </svg>
+
+  <header class="site-header">
+    <div class="wrap site-header__inner">
+      <a class="brand" href="#top" aria-label="RazTech Innovations AB, startsida">
+        <img class="brand__logo" src="../assets/logo.png" alt="" width="1272" height="293">
+      </a>
+      <nav class="nav" aria-label="Avsnitt">
+        <a href="#products">Produkter</a>
+        <a href="#iot">IoT</a>
+        <a href="#consulting">Konsulting</a>
+        <a href="#smart-city">Smart stad</a>
+        <a href="#sustainability">Hållbarhet</a>
+        <!-- lang:start -->
+        <details class="lang">
+          <summary aria-label="Språk: Svenska"><svg class="flag" aria-hidden="true" focusable="false"><use href="#flag-sv"/></svg><span>SV</span><svg class="lang__caret" viewBox="0 0 10 6" aria-hidden="true" focusable="false"><path d="m1 1 4 4 4-4"/></svg></summary>
+          <ul class="lang__menu">
+            <li><a href="../" lang="en" hreflang="en"><svg class="flag" aria-hidden="true" focusable="false"><use href="#flag-en"/></svg>English</a></li>
+            <li><a href="#top" lang="sv" hreflang="sv" aria-current="true"><svg class="flag" aria-hidden="true" focusable="false"><use href="#flag-sv"/></svg>Svenska</a></li>
+          </ul>
+        </details>
+        <!-- lang:end -->
+        <a class="nav__cta" href="#contact">Kontakt</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="wrap">
+        <p class="slogan">Innovating tomorrow, today</p>
+        <h1>Lugn teknik för städer, hem, omsorg och lek.</h1>
+        <p class="lead">RazTech Innovations är en svensk IoT-produktstudio och konsultfirma som arbetar med företag i hela Europa. Vi bygger egna uppkopplade produkter och appar, och vi hjälper industri, städer och fastighetsägare att göra sensorer, realtidsdata och AI till tjänster som människor litar på.</p>
+        <p class="actions">
+          <a class="button" href="#contact">Prata med oss om ett projekt</a>
+          <a class="button button--quiet" href="#products">Se produkterna</a>
+        </p>
+      </div>
+
+      <div class="wrap">
+        <figure class="map">
+          <!-- Wide map: every station is a link to its product below. -->
+          <svg class="map__wide" viewBox="0 0 1200 420" role="group" aria-labelledby="map-title">
+            <title id="map-title">RazTechs nät: fyra linjer med produkter som möts i en studio</title>
+
+            <path class="line l-city" pathLength="1" d="M600 198H528L420 90H70" />
+            <path class="line l-care" pathLength="1" d="M600 222H528L420 330H70" />
+            <path class="line l-play" pathLength="1" d="M600 198H672L780 90H1130" />
+            <path class="line l-home" pathLength="1" d="M600 222H672L780 330H1130" />
+
+            <g class="map__names" aria-hidden="true">
+              <text class="t-city" x="70" y="126">Stad och mobilitet</text>
+              <text class="t-care" x="70" y="304">Omsorg och arbete</text>
+              <text class="t-play" x="1130" y="126" text-anchor="end">Spel och lek</text>
+              <text class="t-home" x="1130" y="304" text-anchor="end">Hem och natur</text>
+            </g>
+
+            <g class="stations">
+              <a href="#maps360"><circle class="stop-dot stop-dot--soon" cx="150" cy="90" r="10" /><text x="150" y="62">360Maps</text></a>
+              <a href="#myvehicles"><circle class="stop-dot stop-dot--soon" cx="320" cy="90" r="10" /><text x="320" y="62">MyVehicles</text></a>
+              <a href="#assistancecare"><circle class="stop-dot stop-dot--soon" cx="235" cy="330" r="10" /><text x="235" y="372">AssistanceCare</text></a>
+              <a href="#pixelhome"><circle class="stop-dot" cx="850" cy="90" r="10" /><text x="850" y="62">Pixel Home</text></a>
+              <a href="#crownfall"><circle class="stop-dot" cx="965" cy="90" r="10" /><text x="965" y="62">Crownfall</text></a>
+              <a href="#juno"><circle class="stop-dot" cx="1080" cy="90" r="10" /><text x="1080" y="62">JUNO</text></a>
+              <a href="#threadmapper"><circle class="stop-dot" cx="870" cy="330" r="10" /><text x="870" y="372">ThreadMapper</text></a>
+              <a href="#grodd"><circle class="stop-dot stop-dot--soon" cx="1040" cy="330" r="10" /><text x="1040" y="372">GRODD</text></a>
+            </g>
+
+            <a class="map__hub" href="#consulting">
+              <rect class="hub" x="576" y="176" width="48" height="68" rx="24" />
+              <text class="map__hub-name" x="600" y="286">RazTech</text>
+              <text class="map__hub-sub" x="600" y="309">IoT-studio och konsulting</text>
+            </a>
+          </svg>
+
+          <!-- Compact map for narrow screens: the same shape, no labels. -->
+          <svg class="map__compact" viewBox="0 0 360 150" aria-hidden="true">
+            <path class="line l-city" pathLength="1" d="M180 68H150L110 28H12" />
+            <path class="line l-care" pathLength="1" d="M180 82H150L110 122H12" />
+            <path class="line l-play" pathLength="1" d="M180 68H210L250 28H348" />
+            <path class="line l-home" pathLength="1" d="M180 82H210L250 122H348" />
+            <g class="stations">
+              <circle class="stop-dot stop-dot--soon" cx="40" cy="28" r="6" />
+              <circle class="stop-dot stop-dot--soon" cx="84" cy="28" r="6" />
+              <circle class="stop-dot stop-dot--soon" cx="62" cy="122" r="6" />
+              <circle class="stop-dot" cx="268" cy="28" r="6" />
+              <circle class="stop-dot" cx="298" cy="28" r="6" />
+              <circle class="stop-dot" cx="328" cy="28" r="6" />
+              <circle class="stop-dot" cx="276" cy="122" r="6" />
+              <circle class="stop-dot stop-dot--soon" cx="318" cy="122" r="6" />
+            </g>
+            <rect class="hub" x="166" y="54" width="28" height="42" rx="14" />
+          </svg>
+
+          <figcaption class="map__key">
+            <span class="key"><span class="dot" aria-hidden="true"></span>Finns nu</span>
+            <span class="key"><span class="dot dot--soon" aria-hidden="true"></span>På väg</span>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section" id="products" aria-labelledby="products-title">
+      <div class="wrap">
+        <div class="section__head">
+          <h2 id="products-title">Åtta produkter på fyra linjer</h2>
+          <p>Det här är våra egna produkter, designade och byggda av RazTech. Fyra finns i App Store i dag. Resten är på väg, och vi säger vilka. Arbete vi gör åt kunder visas inte här.</p>
+        </div>
+
+        <div class="line-group line-group--city">
+          <div class="line-group__head">
+            <h3>Stad och mobilitet</h3>
+            <p>Öppna data i realtid, till nytta för dem som rör sig i staden.</p>
+          </div>
+          <ul class="stops">
+            <li class="stop stop--soon" id="maps360">
+              <img class="stop__icon" src="../assets/icons/360maps.webp" alt="" width="64" height="64">
+              <div class="stop__body">
+                <h4>360Maps</h4>
+                <p class="status status--soon">Kommer till App Store</p>
+                <p>Sverige i realtid. Bussar, tunnelbana, tåg och båtar i 15 län, köer och restider på Stockholms vägar, väglag, regnradar och störningar på en karta för iPhone, allt hämtat från öppna data.</p>
+                <p class="links"><a href="https://tintronix-lab.github.io/360Maps/">360Maps webbplats</a></p>
+              </div>
+            </li>
+            <li class="stop stop--soon" id="myvehicles">
+              <span class="stop__icon stop__icon--mono" aria-hidden="true">MV</span>
+              <div class="stop__body">
+                <h4>MyVehicles</h4>
+                <p class="status status--soon">Planeras</p>
+                <p>Hushållets alla fordon på ett ställe: status, besiktning och skatt, och servicehistorik, med ett tryck till rätt officiell e-tjänst. En fristående app för svenska fordonsägare, planerad för iPhone och Android.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="line-group line-group--home">
+          <div class="line-group__head">
+            <h3>Hem och natur</h3>
+            <p>Uppkopplade saker som säger sanningen om sig själva och tar hand om det som växer.</p>
+          </div>
+          <ul class="stops">
+            <li class="stop" id="threadmapper">
+              <img class="stop__icon" src="../assets/icons/threadmapper.webp" alt="" width="64" height="64">
+              <div class="stop__body">
+                <h4>ThreadMapper</h4>
+                <p class="status">I App Store</p>
+                <p>Ditt Thread-nätverk, svart på vitt. Se vilka enheter i det smarta hemmet som är på Thread, vilka gränsroutrar nätverket har och när en enhet verkligen har gått offline. För iPhone, iPad och Apple Watch. Det appen inte kan läsa visar den inte.</p>
+                <p class="links">
+                  <a href="https://tintronix-lab.github.io/ThreadMapper/">ThreadMapper webbplats</a>
+                  <a href="https://apps.apple.com/app/id6794255629">App Store</a>
+                </p>
+              </div>
+            </li>
+            <li class="stop stop--soon" id="grodd">
+              <img class="stop__icon" src="../assets/icons/grodd.webp" alt="" width="64" height="64">
+              <div class="stop__body">
+                <h4>GRODD</h4>
+                <p class="status status--soon">Under utveckling</p>
+                <p>En smart kruka som förenar skandinavisk keramik med sensorer för jordfukt, ljus och temperatur. Den vattnar vid rötterna i korta, uppmätta pulser i stället för att dränka krukan, så att växten får vad den behöver och mindre vatten går till spillo. Designad i Stockholm.</p>
+                <p class="links"><a href="https://tintronix-lab.github.io/GRODD-WEB/">GRODD webbplats</a></p>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="line-group line-group--care">
+          <div class="line-group__head">
+            <h3>Omsorg och arbete</h3>
+            <p>Programvara för dem som organiserar omsorg, med reglerna inbyggda och förklarade.</p>
+          </div>
+          <ul class="stops">
+            <li class="stop stop--soon" id="assistancecare">
+              <img class="stop__icon" src="../assets/icons/assistancecare.webp" alt="" width="64" height="64">
+              <div class="stop__body">
+                <h4>AssistanceCare</h4>
+                <p class="status status--soon">Under utveckling</p>
+                <p>En lugn och tydlig plats för att driva personlig assistans i Sverige. Schemaläggning och bemanning, beslut och beviljade timmar, tidrapportering och arbetstidsregler som varnar i sitt sammanhang och förklarar sig på klarspråk, på svenska och engelska.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="line-group line-group--play">
+          <div class="line-group__head">
+            <h3>Spel och lek</h3>
+            <p>Spel som respekterar spelarens tid, uppmärksamhet och plånbok.</p>
+          </div>
+          <ul class="stops">
+            <li class="stop" id="pixelhome">
+              <img class="stop__icon stop__icon--pixel" src="../assets/icons/pixelhome.webp" alt="" width="64" height="64">
+              <div class="stop__body">
+                <h4>Pixel Home</h4>
+                <p class="status">I App Store</p>
+                <p>Ett mysigt pusselspel i pixelstil där det gäller att få hem alla. 340 trädgårdar i tjugofyra världar, ett nytt pussel varje dag och inga tidsgränser. För iPhone och iPad, och dagens pussel går att spela i webbläsaren.</p>
+                <p class="links">
+                  <a href="https://tintronix-lab.github.io/Pixelhome/">Pixel Home webbplats</a>
+                  <a href="https://apps.apple.com/app/id6821402076">App Store</a>
+                </p>
+              </div>
+            </li>
+            <li class="stop" id="crownfall">
+              <img class="stop__icon" src="../assets/icons/crownfall.webp" alt="" width="64" height="64">
+              <div class="stop__body">
+                <h4>Crownfall</h4>
+                <p class="status">I App Store</p>
+                <p>Ett strategispel i realtid i fantasymiljö för iPhone och iPad. Bygg en by, smid ett kungarike och marschera mot din rival. Gratis att börja, ett enda köp låser upp hela spelet, och det finns ingen reklam.</p>
+                <p class="links">
+                  <a href="https://tintronix-lab.github.io/Crownfall/">Crownfall webbplats</a>
+                  <a href="https://apps.apple.com/app/id6828742564">App Store</a>
+                </p>
+              </div>
+            </li>
+            <li class="stop" id="juno">
+              <img class="stop__icon" src="../assets/icons/juno.webp" alt="" width="64" height="64">
+              <div class="stop__body">
+                <h4>JUNO: Little Worlds</h4>
+                <p class="status">I App Store</p>
+                <p>Ett lugnt djur- och pusselspel för barn mellan 6 och 10 år. Kläck en Juno, ta hand om den och lös snälla pussel som väcker en svävande ö. Ingen reklam, ingen spårning och ingen stress, uppläst på 21 språk.</p>
+                <p class="links">
+                  <a href="https://tintronix-lab.github.io/Juno-LittleWorlds/">JUNO webbplats</a>
+                  <a href="https://apps.apple.com/app/id6825027309">App Store</a>
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section signal" id="iot" aria-labelledby="iot-title">
+      <div class="wrap">
+        <div class="section__head">
+          <h2 id="iot-title">IoT och industriell IoT, från sensor till beslut</h2>
+          <p>En uppkopplad produkt är en kedja, och den är aldrig starkare än sin svagaste länk. Vi arbetar själva med varje länk: sensorn, radion, den inbyggda programvaran, molnet och skärmen i någons hand. I ett hem slutar kedjan vid en växt eller en lampa. I industrin slutar den vid en pump, en mätare eller en produktionslina, där ett missat mätvärde kostar pengar.</p>
+        </div>
+
+        <ol class="chain">
+          <li class="chain__step">
+            <h3>Mät</h3>
+            <p>Rätt sensor, placerad där sanningen finns. GRODD mäter jordfukt, ljus och temperatur vid roten, där besluten om vattning fattas.</p>
+          </li>
+          <li class="chain__step">
+            <h3>Koppla upp</h3>
+            <p>Thread, Matter, HomeKit och wifi. Vi mäter radion i stället för att lita på den: ThreadMappers sond läser själva Thread-radion.</p>
+          </li>
+          <li class="chain__step">
+            <h3>Kör i enheten</h3>
+            <p>Inbyggd programvara som agerar på sina egna mätvärden och uppdateras trådlöst. Sondens programvara publiceras med kontrollsummor, så att vem som helst kan verifiera det som installeras.</p>
+          </li>
+          <li class="chain__step">
+            <h3>Lär i molnet</h3>
+            <p>Telemetri som strömmas, lagras och blir till tröskelvärden, larm och historik. GRODD anpassar varje växts vattning efter de data den skickar.</p>
+          </li>
+          <li class="chain__step">
+            <h3>Agera</h3>
+            <p>En skärm som säger vad som är fel och vad som ska göras först. ThreadMapper betygsätter ett nätverk från A till F och listar åtgärderna med underlaget bakom var och en.</p>
+          </li>
+        </ol>
+
+        <div class="stack">
+          <h3>Det vi arbetar med</h3>
+          <dl class="stack__rows">
+            <div class="stack__row">
+              <dt>Enheter och inbyggd programvara</dt>
+              <dd>Sensorer och ställdon, inbyggd programvara, strömsnål design, säker uppstart och trådlösa uppdateringar.</dd>
+            </div>
+            <div class="stack__row">
+              <dt>Uppkoppling</dt>
+              <dd>Thread, Matter, Zigbee, Bluetooth LE och wifi i byggnader. LoRaWAN, NB-IoT, LTE-M och eSIM i fält.</dd>
+            </div>
+            <div class="stack__row">
+              <dt>Industriella protokoll</dt>
+              <dd>MQTT, OPC UA och Modbus, med gateways som kopplar upp PLC:er, SCADA-system och äldre maskiner.</dd>
+            </div>
+            <div class="stack__row">
+              <dt>Edge och moln</dt>
+              <dd>Edge computing, enhetshantering, tidsseriedata, digitala tvillingar, instrumentpaneler och larm.</dd>
+            </div>
+            <div class="stack__row">
+              <dt>Analys och AI</dt>
+              <dd>Avvikelsedetektering, prediktivt underhåll och energioptimering, där operatören får se resonemanget bakom.</dd>
+            </div>
+            <div class="stack__row">
+              <dt>Säkerhet och regelefterlevnad</dt>
+              <dd>Inbyggd säkerhet, med GDPR, EU:s cyberresiliensförordning, NIS2 och radioutrustningsdirektivet i sikte från första skissen.</dd>
+            </div>
+          </dl>
+        </div>
+
+        <div class="fields">
+          <article>
+            <h3>I hem och fastigheter</h3>
+            <p>Produkter för det smarta hemmet på Thread och Matter, smarta fastigheter där inomhusklimat, energi och vatten hålls under uppsikt, växter och gröna väggar, och appen som gör en byggnads system begripliga för dem som bor där.</p>
+          </article>
+          <article>
+            <h3>I industrin</h3>
+            <p>Samma kedja i industriell skala: tillståndsövervakning och prediktivt underhåll för maskiner och pumpar, mätning av energi och vatten, spårning av tillgångar, och eftermontering som kopplar upp äldre utrustning. Flottor av enheter i fält övervakas och uppdateras på distans, och varje larm går att spåra till mätvärdet bakom.</p>
+          </article>
+          <article>
+            <h3>I hela Europa</h3>
+            <p>Vi arbetar med europeiska företag, på engelska och svenska, och vi bygger för europeiska krav: inbyggt dataskydd enligt GDPR, säkerhet byggd för cyberresiliensförordningen och NIS2, data som stannar i EU när projektet kräver det, och säkerhetsuppdateringar planerade för enhetens hela livslängd.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--tint" id="consulting" aria-labelledby="consulting-title">
+      <div class="wrap">
+        <div class="section__head">
+          <h2 id="consulting-title">Konsulting från folk som levererar</h2>
+          <p>Vi ger råd om samma saker som vi själva bygger, åt företag i hela Europa. Du får en partner som kan ta en idé från ett första samtal till en produkt i människors händer, och som vet var varje steg brukar gå fel.</p>
+        </div>
+
+        <dl class="services">
+          <div class="service">
+            <dt>Produktstrategi och förstudie</dt>
+            <dd>Från en lös idé till en plan som går att finansiera och bygga: vem den är till för, vad som ska byggas först, vad den är beroende av, och tydliga beslutspunkter som säger när det är dags att gå vidare och när det är dags att stanna.</dd>
+          </div>
+          <div class="service">
+            <dt>Uppkopplade produkter och IoT</dt>
+            <dd>Sensorer, inbyggd programvara, radio och appen som knyter ihop dem: Thread, Matter, Zigbee, Bluetooth LE och wifi i hemmet, LoRaWAN och mobil IoT i fält. Vi designar uppkopplade produkter som fortsätter att fungera, och som kan förklara sig själva när de inte gör det.</dd>
+          </div>
+          <div class="service">
+            <dt>Industriell IoT</dt>
+            <dd>Maskiner, mätare och byggnader som kopplas upp med MQTT, OPC UA och Modbus: vad som ska mätas, hur mätvärdena kommer ut tillförlitligt, och hur de blir till övervakning, digitala tvillingar och prediktivt underhåll som era operatörer litar på.</dd>
+          </div>
+          <div class="service">
+            <dt>Smart stad och mobilitet</dt>
+            <dd>Öppna data, sensornät, realtidsflöden och kartor som blir till tjänster invånarna använder. Kollektivtrafik, trafik, väder, parkering och samhällsinformation, med varje källa angiven.</dd>
+          </div>
+          <div class="service">
+            <dt>AI-strategi och automatisering</dt>
+            <dd>Praktisk AI i produkter och verksamhet. Vi hittar var den gör nytta, låter en människa ansvara för besluten som spelar roll, och ser till att varje förslag visar hur det har resonerat.</dd>
+          </div>
+          <div class="service">
+            <dt>Digital transformation</dt>
+            <dd>Spridda verktyg och manuella rutiner ersätts med ett system som folk vill använda. Integrationer via adaptrar, så att nästa löne- eller bokföringssystem kopplas in utan att något behöver skrivas om.</dd>
+          </div>
+          <div class="service">
+            <dt>Reglerad och tillgänglig programvara</dt>
+            <dd>Regler inbyggda som läsbara regelpaket, spårbarhet, inbyggt dataskydd och tillgänglighet från första skissen. För omsorg, offentlig sektor och allt som görs för barn.</dd>
+          </div>
+          <div class="service">
+            <dt>Appar och spel för Apples plattformar</dt>
+            <dd>iPhone, iPad och Apple Watch, App Clips och widgetar, från koncept till granskning i App Store, på så många språk som era användare talar.</dd>
+          </div>
+          <div class="service">
+            <dt>Hållbar produktdesign</dt>
+            <dd>Produkter som förbrukar mindre: mindre vatten, mindre energi, mindre data och färre enheter som byts ut i förtid. Vi behandlar resursförbrukning som ett designkrav.</dd>
+          </div>
+        </dl>
+
+        <aside class="private" aria-labelledby="private-title">
+          <h3 id="private-title">Det du inte ser på den här sidan</h3>
+          <p>Vi har gjort mycket mer än den här sidan visar. Det arbetet gjordes åt andra företag, och det stannar mellan oss och dem. Produkterna ovan är våra egna, och därför kan vi visa dem. Vill du veta om vi har löst ett problem som liknar ditt? Fråga. Vi berättar det vi kan, och vi delar aldrig något som en kund inte har godkänt.</p>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section board-section" id="smart-city" aria-labelledby="city-title">
+      <div class="wrap board-layout">
+        <div class="board-layout__text">
+          <h2 id="city-title">En stad är smart när människor kan se vad som händer i den</h2>
+          <p>Sverige publicerar några av världens bästa öppna data. Det mesta når aldrig den som väntar på bussen eller funderar på att ta bilen. 360Maps är vårt svar: en karta som samlar ett dussin offentliga källor och uppdateras medan du tittar.</p>
+          <p>Vi tar samma arbetssätt till kommuner, trafikhuvudmän och fastighetsägare. Börja med de data ni redan har, visa dem ärligt, och bygg tjänsten kring frågorna människor ställer varje dag.</p>
+          <p><a class="text-link" href="#contact">Prata med oss om din stad eller fastighet</a></p>
+        </div>
+
+        <div class="board" role="table" aria-label="Vad 360Maps visar och hur ofta det uppdateras">
+          <div class="board__row board__row--head" role="row">
+            <span role="columnheader">Uppdateras</span>
+            <span role="columnheader">På kartan</span>
+            <span role="columnheader">Källa</span>
+          </div>
+          <div class="board__row" role="row">
+            <span role="cell" class="board__time">Varje sekund</span>
+            <span role="cell">Tågens position</span>
+            <span role="cell" class="board__src">Oxyfi via Trafiklab</span>
+          </div>
+          <div class="board__row" role="row">
+            <span role="cell" class="board__time">I realtid</span>
+            <span role="cell">Bussar, tunnelbana, tåg och båtar i 15 län</span>
+            <span role="cell" class="board__src">Trafiklab och Samtrafiken</span>
+          </div>
+          <div class="board__row" role="row">
+            <span role="cell" class="board__time">Varje minut</span>
+            <span role="cell">Uppmätta restider på Stockholms leder och tunnlar</span>
+            <span role="cell" class="board__src">Trafikverket</span>
+          </div>
+          <div class="board__row" role="row">
+            <span role="cell" class="board__time">Var femte minut</span>
+            <span role="cell">Regnradar</span>
+            <span role="cell" class="board__src">SMHI</span>
+          </div>
+          <div class="board__row" role="row">
+            <span role="cell" class="board__time">I realtid</span>
+            <span role="cell">Olyckor, avstängningar, vägarbeten och väglag</span>
+            <span role="cell" class="board__src">Trafikverket</span>
+          </div>
+          <div class="board__row" role="row">
+            <span role="cell" class="board__time">I realtid</span>
+            <span role="cell">Händelser och viktiga meddelanden</span>
+            <span role="cell" class="board__src">Polisen och Krisinformation.se</span>
+          </div>
+          <div class="board__row" role="row">
+            <span role="cell" class="board__time">I realtid</span>
+            <span role="cell">Fartyg i rörelse till havs</span>
+            <span role="cell" class="board__src">Fintraffic</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="sustainability" aria-labelledby="eco-title">
+      <div class="wrap">
+        <div class="section__head">
+          <h2 id="eco-title">Lättare från grunden</h2>
+          <p>Vi visar hellre vad våra produkter gör än lovar saker om planeten. Det här är valen vi gör, och var du kan kontrollera dem.</p>
+        </div>
+
+        <div class="eco">
+          <article class="eco__item">
+            <h3>Grönare resor som är lätta att välja</h3>
+            <p>360Maps planerar resan med bil, kollektivtrafik, cykel eller till fots utifrån trafiken som den är just nu. Alternativen till bilen är alltid ett tryck bort.</p>
+          </article>
+          <article class="eco__item">
+            <h3>Vatten där rötterna är</h3>
+            <p>GRODD doserar vatten i korta pulser vid rötterna, styrt av en jordfuktssensor, i stället för att dränka hela krukan på bestämda tider. Växten får vad den behöver och mindre vatten går till spillo.</p>
+          </article>
+          <article class="eco__item">
+            <h3>Programvara som kräver lite</h3>
+            <p>JUNO, Crownfall, ThreadMapper och 360Maps kräver inget konto. JUNO och 360Maps har ingen reklam och ingen spårning. Mindre data som flyttas och lagras betyder mindre energi som går åt.</p>
+          </article>
+          <article class="eco__item">
+            <h3>Saker som håller</h3>
+            <p>ThreadMapper hjälper dig att ta reda på varför en enhet föll ur nätverket innan du byter ut den. MyVehicles planeras kring en servicehistorik som följer bilen till nästa ägare.</p>
+          </article>
+          <article class="eco__item">
+            <h3>En webbplats som lever som den lär</h3>
+            <p>Den här sidan är ren HTML och CSS med en enda typsnittsfil. Inga kakor, ingen spårning, ingen besöksstatistik och inget som laddas från någon annan.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--tint" id="approach" aria-labelledby="approach-title">
+      <div class="wrap">
+        <div class="section__head">
+          <h2 id="approach-title">Så arbetar vi</h2>
+        </div>
+        <div class="principles">
+          <article>
+            <h3>Visa bara det som är sant</h3>
+            <p>ThreadMapper visar ingen signalstyrka för Thread-tillbehör, eftersom iOS inte ger appar någon att läsa. 360Maps anger källan till allt på kartan. Det vi inte kan mäta ritar vi inte.</p>
+          </article>
+          <article>
+            <h3>Lugn framför finess</h3>
+            <p>AssistanceCare varnar för ett arbetstidsproblem medan det fortfarande går att åtgärda. JUNO och Pixel Home har inga tidsgränser. Bra programvara sänker pulsen hos den som använder den.</p>
+          </article>
+          <article>
+            <h3>Integritet från början</h3>
+            <p>JUNO har ingen reklam, ingen spårning och inget konto. Crownfall sparar dina spel på din enhet. Vi samlar in det en funktion behöver för att fungera, och säger det med enkla ord.</p>
+          </article>
+          <article>
+            <h3>Gjort för alla</h3>
+            <p>JUNO läser upp varje rad på 21 språk. Pixel Home märker varje färg med en symbol, så att inget pussel hänger på att kunna skilja nyanser åt. Tillgänglighet är en del av den första designen, inte något som lagas i efterhand.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact" aria-labelledby="contact-title">
+      <div class="wrap">
+        <h2 id="contact-title">Har du en stad, en fastighet eller en tjänst som borde fungera bättre?</h2>
+        <p class="lead">Berätta med några rader vad du vill åstadkomma, på svenska eller engelska. Vi svarar på alla meddelanden.</p>
+        <p class="actions">
+          <a class="button" href="mailto:raztechsupport@icloud.com?subject=Projektf%C3%B6rfr%C3%A5gan">Mejla raztechsupport@icloud.com</a>
+        </p>
+        <p class="contact__note">Använder du någon av våra appar? Varje produkts webbplats har egna sidor för support och integritet, och samma adress når oss.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap site-footer__inner">
+      <p class="site-footer__slogan">Innovating tomorrow, today</p>
+      <p>© 2026 RazTech Innovations AB. Gjord i Sverige. Den här webbplatsen använder inga kakor och ingen spårning.</p>
+    </div>
+  </footer>
+</body>
+</html>
