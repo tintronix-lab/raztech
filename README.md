@@ -42,10 +42,6 @@ The site is plain HTML and CSS in English and Swedish. It uses no cookies, no tr
 
 Found a mistake on the site? Tell us at the address above.
 
-## Credits and license
+## License
 
-- **Typeface:** Overpass, © The Overpass Project Authors, under the SIL Open Font License 1.1. The license is in `assets/fonts/OFL.txt`.
-- **Product icons:** from each product's own website or App Store listing. They belong to RazTech Innovations AB and its products.
-- **Data sources named on the page:** Trafiklab, Samtrafiken, Trafikverket, Oxyfi, SMHI, Polisen, Krisinformation.se and Fintraffic are credited as the open-data sources 360Maps uses. RazTech is not affiliated with them.
-
-© 2026 RazTech Innovations AB. All rights reserved. This repository is public so that the website can be served from it; it is not open source. The site's text, design, logo and images may not be reused without permission. Product names and logos belong to RazTech Innovations AB. Third-party names, such as Thread, Matter, HomeKit, App Store and the data providers above, belong to their owners and are used only to describe what the products work with.
+© 2026 RazTech Innovations AB. All rights reserved. This repository is public so that the website can be served from it; it is not open source. The site's text, design, logo and images may not be reused without permission. Product names and logos belong to RazTech Innovations AB. Third-party names, such as Thread, Matter, HomeKit and App Store, belong to their owners and are used only to describe what the products work with.
